@@ -4,6 +4,7 @@ package com.masterlee.controllers;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.masterlee.entity.product;
+import com.masterlee.entity.responseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,23 +26,37 @@ public class ProductController {
     productService productService;
     @RequestMapping(value = "/add",produces = "application/json; charset=utf-8")
     @ResponseBody
-    public  List<product>  addProduct (){
-        try {
+    public responseResult addProduct (){
+
+            responseResult<product> result= new responseResult<>();
             product product = new product();
             int random = new Random().nextInt(100);
             product.setName("测试商品"+random);
             product.setNumber(10);
             product.setCreatetime(new Date());
-           productService.addProduct(product);
+            productService.addProduct(product);
+            result.setResponseData(product);
+            return  result;
+    }
+
+    @RequestMapping(value = "/select",produces = "application/json; charset=utf-8")
+    @ResponseBody
+    public  responseResult selectAll(){
+        responseResult<List<product>> result= new responseResult<>();
+
+        try {
             List<product>  list = productService.selectProduct();
-
             ObjectMapper objectMapper = new ObjectMapper();
-          String jsonstring =  objectMapper.writeValueAsString(list);
-            return list;
-        }catch (JsonProcessingException EX){
-
+            String jsonstring =  objectMapper.writeValueAsString(list);
+            result.setResponseData(list);
+            return result;
+        }
+        catch (JsonProcessingException EX){
+            result.setErrorCode("4001");
+            result.setResponseStatus(false);
+            result.setErrorMessage(EX.getMessage());
             EX.printStackTrace();
-            return null;
+            return result;
         }
     }
     public  String update(product product) {
