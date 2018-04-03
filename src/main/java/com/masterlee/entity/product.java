@@ -1,5 +1,7 @@
 package com.masterlee.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class product {
@@ -9,6 +11,7 @@ public class product {
 
     private Integer number;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date createtime;
 
     private String description;

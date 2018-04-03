@@ -23,4 +23,10 @@ public class productService {
     public List<product> selectProduct(){
         return productMapper.selectAll();
     }
+    public  int  updateProduct(product product){
+        return  productMapper.updateByPrimaryKey(product);
+    }
+    public  product selectProducById(Integer id){
+        return  productMapper.selectByPrimaryKey(id);
+    }
 }

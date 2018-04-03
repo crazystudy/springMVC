@@ -23,9 +23,9 @@ public class ProductController {
 
     @Autowired
     productService productService;
-    @RequestMapping("/add")
+    @RequestMapping(value = "/add",produces = "application/json; charset=utf-8")
     @ResponseBody
-    public  String  addProduct (){
+    public  List<product>  addProduct (){
         try {
             product product = new product();
             int random = new Random().nextInt(100);
@@ -36,16 +36,18 @@ public class ProductController {
             List<product>  list = productService.selectProduct();
 
             ObjectMapper objectMapper = new ObjectMapper();
-           objectMapper.writeValue(System.out,list);
-            return System.out.toString();
+          String jsonstring =  objectMapper.writeValueAsString(list);
+            return list;
         }catch (JsonProcessingException EX){
 
             EX.printStackTrace();
-            return EX.getMessage();
-        }catch (IOException ex)
-        {
-            return  ex.getMessage();
+            return null;
         }
-
     }
+    public  String update(product product) {
+
+        productService.updateProduct(product);
+        return "";
+    }
+
 }

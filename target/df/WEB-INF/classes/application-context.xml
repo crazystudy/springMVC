@@ -45,8 +45,20 @@
 		<!-- 给出需要扫描Dao接口包 -->
 		<property name="basePackage" value="com.masterlee.mapper" />
 	</bean>
-    
-    
+
+    <!-- 解决json序列化  中文乱码问题 -->
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>application/json;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
     <!-- 扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.masterlee.mapper" />
