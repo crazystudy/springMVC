@@ -34,8 +34,18 @@ public class ProductController {
             product.setName("测试商品"+random);
             product.setNumber(10);
             product.setCreatetime(new Date());
-            productService.addProduct(product);
-            result.setResponseData(product);
+            //返回结果
+            boolean effect =productService.addProduct(product);
+            result.setResponseStatus(effect);
+            //失败,set=>code,message
+            if (!effect){
+                result.setErrorCode("4001");
+                result.setErrorMessage("保存失败,请重试");
+            }
+            //成功.return实体
+            else {
+                result.setResponseData(product);
+            }
             return  result;
     }
 
@@ -59,10 +69,36 @@ public class ProductController {
             return result;
         }
     }
-    public  String update(product product) {
-
-        productService.updateProduct(product);
-        return "";
+    @RequestMapping(value = "/update",produces = "application/json; charset=utf-8")
+    @ResponseBody
+    public  responseResult update(product product) {
+        responseResult<product> result= new responseResult<>();
+        boolean effect= productService.updateProduct(product);
+        result.setResponseStatus(effect);
+        if (!effect){
+            result.setErrorCode("4001");
+            result.setErrorMessage("保存失败,请重试");
+        }
+        //成功.return实体
+        else {
+            result.setResponseData(product);
+        }
+        return result;
     }
-
+    @RequestMapping(value = "/delete",produces = "application/json; charset=utf-8")
+    @ResponseBody
+    public  responseResult delete(Integer productId) {
+        responseResult<String> result= new responseResult<>();
+        boolean effect= productService.deleteProduct(productId);
+        result.setResponseStatus(effect);
+        if (!effect){
+            result.setErrorCode("4001");
+            result.setErrorMessage("保存失败,请重试");
+        }
+        //成功.return实体
+        else {
+            result.setResponseData("删除成功");
+        }
+        return result;
+    }
 }
