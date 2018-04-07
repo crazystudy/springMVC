@@ -16,17 +16,22 @@ public class productService {
 
     public  boolean addProduct(product product){
         int i = productMapper.insert(product);
-        System.out.print(i);
-        return  true;
+        return  i==1? true:false;
     }
 
     public List<product> selectProduct(){
         return productMapper.selectAll();
     }
-    public  int  updateProduct(product product){
-        return  productMapper.updateByPrimaryKey(product);
+    public  boolean  updateProduct(product product){
+        int i = productMapper.updateByPrimaryKey(product);
+        return  i==1? true:false;
     }
     public  product selectProducById(Integer id){
         return  productMapper.selectByPrimaryKey(id);
+    }
+    public  boolean deleteProduct(Integer id )
+    {
+        int i = productMapper.deleteByPrimaryKey(id);
+        return  i==1? true:false;
     }
 }
