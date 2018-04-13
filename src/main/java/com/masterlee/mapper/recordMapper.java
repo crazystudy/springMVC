@@ -2,6 +2,7 @@ package com.masterlee.mapper;
 
 import com.masterlee.entity.record;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface recordMapper {

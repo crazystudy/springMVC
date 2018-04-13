@@ -103,4 +103,10 @@
       createTime = #{createtime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectAll"  resultType ="com.masterlee.entity.record">
+    SELECT
+    <include refid="Base_Column_List"/>
+    form record
+     order by   createTime DESC
+  </select>
 </mapper>

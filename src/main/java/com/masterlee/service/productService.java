@@ -3,6 +3,8 @@ import com.masterlee.entity.product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import  com.masterlee.mapper.productMapper;
+
+import java.util.HashMap;
 import java.util.List;
 
 @Service
@@ -33,5 +35,9 @@ public class productService {
     {
         int i = productMapper.deleteByPrimaryKey(id);
         return  i==1? true:false;
+    }
+    public  boolean removeProduct(HashMap map){
+        int i = productMapper.removeByPrimaryKey(map);
+        return i>0? true:false;
     }
 }

@@ -2,6 +2,7 @@ package com.masterlee.mapper;
 
 import com.masterlee.entity.product;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface productMapper {
@@ -19,4 +20,5 @@ public interface productMapper {
 
     int updateByPrimaryKey(product record);
     List<product> selectAll();
+    int removeByPrimaryKey(HashMap map);
 }

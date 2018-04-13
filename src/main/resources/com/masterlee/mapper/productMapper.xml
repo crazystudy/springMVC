@@ -6,12 +6,13 @@
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="number" jdbcType="INTEGER" property="number" />
     <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="ifDetele" jdbcType="BOOLEAN" property="ifdetele" />
   </resultMap>
   <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.masterlee.entity.product">
-    <result column="description" jdbcType="LONGVARCHAR" property="description" />
+    <result column ="description" jdbcType="LONGVARCHAR" property="description" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, name, number, createTime
+    id, name, number, createTime,ifDelete
   </sql>
   <sql id="Blob_Column_List">
     description
@@ -110,4 +111,12 @@
     from product
     order by createTime desc
   </select>
+<!--product假删除-->
+  <update id="removeByPrimaryKey" parameterType="map">
+    UPDATE product
+    <set>
+      ifDelete = #{ifdelete}
+    </set>
+    WHERE  id = #{id}
+  </update>
 </mapper>

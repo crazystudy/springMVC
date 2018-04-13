@@ -16,6 +16,11 @@ public class product {
 
     private String description;
 
+    private Boolean ifdelete;
+
+    public void setIfdelete(Boolean ifdelete) {
+        this.ifdelete = ifdelete;
+    }
     public Integer getId() {
         return id;
     }
@@ -46,6 +51,10 @@ public class product {
 
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
+    }
+
+    public Boolean getIfdelete() {
+        return ifdelete;
     }
 
     public String getDescription() {

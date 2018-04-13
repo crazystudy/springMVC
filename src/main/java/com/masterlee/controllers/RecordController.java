@@ -18,17 +18,15 @@ public class RecordController {
     @RequestMapping(value = "/select",produces = "application/json; charset=utf-8")
     @ResponseBody
     public  responseResult selectAll(){
-       responseResult<List<record>> result = new responseResult<>();
+
        List<record> list = recordService.selectAll();
-       result.setResponseData(list);
+        responseResult<List<record>> result = new responseResult<List<record>>(list,true);
        return  result;
     } @RequestMapping(value = "/add",produces = "application/json; charset=utf-8")
     @ResponseBody
     public  responseResult add(record record){
-        responseResult<record> result = new responseResult<>();
         boolean effect =  recordService.addRecord(record);
-        result.setResponseStatus(effect);
-        result.setResponseData(record);
+        responseResult<record> result = new responseResult<record>(record,effect);
         return  result;
     }
 
