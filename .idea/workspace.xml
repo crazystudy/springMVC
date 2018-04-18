@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f7060a6-97e7-4fc4-afb4-19ee63cd2104" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/ProductRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/User_Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductRecordMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/User_RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,16 +33,6 @@
                 <element signature="imports" expanded="true" />
                 <marker date="1524064636840" expanded="true" signature="1526:1546" ph="@{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -98,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductRecord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductRecord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/ProductRecord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -184,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/entity/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controller/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/secretarylee/mvc/HomeController.java" />
@@ -235,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -335,6 +328,69 @@
               <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
               <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -620,7 +676,7 @@
       <workItem from="1523112364220" duration="229000" />
       <workItem from="1523122269894" duration="17102000" />
       <workItem from="1523598121545" duration="9935000" />
-      <workItem from="1524065680704" duration="192000" />
+      <workItem from="1524065680704" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="新增record的select add  对service的操作结果简单判断">
       <created>1523112144289</created>
@@ -650,11 +706,25 @@
       <option name="project" value="LOCAL" />
       <updated>1524065641306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1524065924122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524065924122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1524065968598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524065968598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140218000" />
+    <option name="totallyTimeSpent" value="140510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,7 +843,8 @@
     </ignored-roots>
     <MESSAGE value="新增record的select add  对service的操作结果简单判断" />
     <MESSAGE value="修改数据库命名规范&#10;新增用户,角色表." />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数据库命名规范&#10;新增用户,角色表." />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,22 +853,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1217">
-          <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding>
-            <marker date="1524065373222" expanded="true" signature="1072:1221" ph="select , fro... " />
-            <marker date="1524065373222" expanded="true" signature="1306:1362" ph="delete from " />
-            <marker date="1524065373222" expanded="true" signature="1447:1746" ph="insert into B_PRODUCT... " />
-            <marker date="1524065373222" expanded="true" signature="2997:3565" ph="update B_PRO... " />
-            <marker date="1524065373222" expanded="true" signature="3671:3970" ph="update B_PRO... " />
-            <marker date="1524065373222" expanded="true" signature="4067:4309" ph="update B_PRO... " />
-            <marker date="1524065373222" expanded="true" signature="4394:4538" ph="SELECT , fro... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.masterlee.mapper/productMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.masterlee.mapper/recordMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java" />
@@ -972,6 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,6 +1207,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
