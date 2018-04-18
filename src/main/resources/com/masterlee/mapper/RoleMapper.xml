@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.masterlee.mapper.RoleMapper">
+  <resultMap id="BaseResultMap" type="com.masterlee.entity.Role">
+    <id column="id" jdbcType="CHAR" property="id" />
+    <result column="role_name" jdbcType="VARCHAR" property="roleName" />
+    <result column="role_type" jdbcType="INTEGER" property="roleType" />
+    <result column="role_leavel" jdbcType="INTEGER" property="roleLeavel" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, role_name, role_type, role_leavel, create_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from S_ROLE
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from S_ROLE
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.masterlee.entity.Role">
+    insert into S_ROLE (id, role_name, role_type, 
+      role_leavel, create_time)
+    values (#{id,jdbcType=CHAR}, #{roleName,jdbcType=VARCHAR}, #{roleType,jdbcType=INTEGER}, 
+      #{roleLeavel,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.masterlee.entity.Role">
+    insert into S_ROLE
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="roleName != null">
+        role_name,
+      </if>
+      <if test="roleType != null">
+        role_type,
+      </if>
+      <if test="roleLeavel != null">
+        role_leavel,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="roleName != null">
+        #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="roleType != null">
+        #{roleType,jdbcType=INTEGER},
+      </if>
+      <if test="roleLeavel != null">
+        #{roleLeavel,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.masterlee.entity.Role">
+    update S_ROLE
+    <set>
+      <if test="roleName != null">
+        role_name = #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="roleType != null">
+        role_type = #{roleType,jdbcType=INTEGER},
+      </if>
+      <if test="roleLeavel != null">
+        role_leavel = #{roleLeavel,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.masterlee.entity.Role">
+    update S_ROLE
+    set role_name = #{roleName,jdbcType=VARCHAR},
+      role_type = #{roleType,jdbcType=INTEGER},
+      role_leavel = #{roleLeavel,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>
