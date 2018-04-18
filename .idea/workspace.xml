@@ -6,33 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7060a6-97e7-4fc4-afb4-19ee63cd2104" name="Default" comment="新增record的select add  对service的操作结果简单判断">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/product_extends.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/product_extends.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/product_extends.xml" afterPath="" />
+    <list default="true" id="7f7060a6-97e7-4fc4-afb4-19ee63cd2104" name="Default" comment="修改数据库命名规范&#10;新增用户,角色表.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/product.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/record.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/recordMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/entity/record.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/entity/record.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/controllers/HomeContrllers.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/controllers/HomeContrllers.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/controllers/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/controllers/ProductController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/entity/product.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/entity/product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/productMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/productMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/service/productService.class" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/service/productService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/controllers/HomeContrllers.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/controllers/HomeContrllers.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/controllers/ProductController.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/controllers/ProductController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/entity/product.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/entity/product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/productMapper.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/productMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/service/productService.class" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/service/productService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/product.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/responseResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/entity/responseResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java" afterPath="$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/productMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/productMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/masterlee/mapper/recordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/productMapper.xml" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/productMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.xml" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/com/masterlee/mapper/recordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/df/WEB-INF/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/df/WEB-INF/classes/generatorConfig.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,68 +58,21 @@
       <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="327">
+              <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1524064636840" expanded="true" signature="1526:1546" ph="@{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responseResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/responseResult.java">
+      <file leaf-file-name="HomeContrllers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recordService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="87" column="52" lean-forward="false" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
-              <folding>
-                <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
-                <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-                <marker date="1523603096347" expanded="true" signature="1061:1211" ph="select , fro... " />
-                <marker date="1523603096347" expanded="true" signature="1297:1354" ph="delete from " />
-                <marker date="1523603096347" expanded="true" signature="1439:1677" ph="insert into product... " />
-                <marker date="1523603096347" expanded="true" signature="2761:3221" ph="update produ... " />
-                <marker date="1523603096347" expanded="false" signature="3327:3572" ph="update produ... " />
-                <marker date="1523603096347" expanded="true" signature="3669:3857" ph="update produ... " />
-                <marker date="1523603096347" expanded="false" signature="3942:4035" ph="select from product" />
-                <marker date="1523603096347" expanded="true" signature="4007:4035" ph="select from product" />
-                <marker date="1523603096347" expanded="true" signature="4125:4132" ph="UPDATE produ... " />
-                <marker date="1523603096347" expanded="true" signature="4125:4211" ph="UPDATE produ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,51 +83,88 @@
       <file leaf-file-name="productService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeContrllers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+            <state relative-caret-position="352">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
-                <element signature="e#802#816#0" expanded="true" />
-                <element signature="e#1117#1125#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recordMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+              <folding>
+                <marker date="1524065373222" expanded="true" signature="1072:1221" ph="select , fro... " />
+                <marker date="1524065373222" expanded="true" signature="1306:1362" ph="delete from " />
+                <marker date="1524065373222" expanded="true" signature="1447:1746" ph="insert into B_PRODUCT... " />
+                <marker date="1524065373222" expanded="true" signature="2997:3565" ph="update B_PRO... " />
+                <marker date="1524065373222" expanded="true" signature="3671:3970" ph="update B_PRO... " />
+                <marker date="1524065373222" expanded="true" signature="4067:4309" ph="update B_PRO... " />
+                <marker date="1524065373222" expanded="true" signature="4394:4538" ph="SELECT , fro... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1182">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,10 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generator-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controller/controllers/HomeController.java" />
@@ -242,23 +235,27 @@
         <option value="$PROJECT_DIR$/src/main/resources/com.masterlee.mapper/recordMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper_extends.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/product_extend.tld" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/product_extends.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/entity/record.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/recordMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/entity/product.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/recordMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/entity/responseResult.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductRecordMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml" />
       </list>
     </option>
   </component>
@@ -310,8 +307,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1919" />
-    <option name="y" value="23" />
+    <option name="x" value="-241" />
+    <option name="y" value="-1057" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
@@ -349,6 +346,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,24 +399,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="masterlee" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="secretarylee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="secretarylee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="masterlee" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -457,10 +440,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -756,7 +735,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130260000" />
+    <option name="totallyTimeSpent" value="139948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,13 +747,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1919" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="-241" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3461929" sideWeight="0.51197916" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30260417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3461929" sideWeight="0.48802084" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4037267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1671875" sideWeight="0.48757765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1671875" sideWeight="0.5124224" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30260417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -787,20 +797,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4037267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3461929" sideWeight="0.48645833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.49407783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22291666" sideWeight="0.50592214" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -873,7 +878,8 @@
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="新增record的select add  对service的操作结果简单判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增record的select add  对service的操作结果简单判断" />
+    <MESSAGE value="修改数据库命名规范&#10;新增用户,角色表." />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据库命名规范&#10;新增用户,角色表." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,55 +888,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mvc/dao/productMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/springmvc-servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/source/mybaits-config.xml" />
-    <entry file="file://$PROJECT_DIR$/source/sping-service.xml" />
-    <entry file="file://$PROJECT_DIR$/secretarylee.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/annotation/AnnotatedElementUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="86" column="26" lean-forward="false" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="935" column="0" lean-forward="false" selection-start-line="935" selection-start-column="0" selection-end-line="935" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12606">
@@ -939,27 +896,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java.1" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1217">
           <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding>
-            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1523603096347" expanded="true" signature="1061:1211" ph="select , fro... " />
-            <marker date="1523603096347" expanded="true" signature="1297:1354" ph="delete from " />
-            <marker date="1523603096347" expanded="true" signature="1439:1677" ph="insert into product... " />
-            <marker date="1523603096347" expanded="true" signature="2761:3221" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3327:3572" ph="update produ... " />
-            <marker date="1523603096347" expanded="true" signature="3669:3857" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3942:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4007:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4125:4132" ph="UPDATE produ... " />
-            <marker date="1523603096347" expanded="true" signature="4125:4211" ph="UPDATE produ... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,43 +910,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-531">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1523603096347" expanded="true" signature="1061:1211" ph="select , fro... " />
-            <marker date="1523603096347" expanded="true" signature="1297:1354" ph="delete from " />
-            <marker date="1523603096347" expanded="true" signature="1439:1677" ph="insert into product... " />
-            <marker date="1523603096347" expanded="true" signature="2761:3221" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3327:3572" ph="update produ... " />
-            <marker date="1523603096347" expanded="true" signature="3669:3857" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3942:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4007:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4125:4132" ph="UPDATE produ... " />
-            <marker date="1523603096347" expanded="true" signature="4125:4211" ph="UPDATE produ... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,21 +933,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="82" column="11" lean-forward="true" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <marker date="1523111368168" expanded="true" signature="898:1000" ph="select from record" />
-            <marker date="1523111368168" expanded="true" signature="1086:1142" ph="delete from " />
-            <marker date="1523111368168" expanded="true" signature="1226:1515" ph="insert into record... " />
-            <marker date="1523111368168" expanded="true" signature="2746:3300" ph="update recor... " />
-            <marker date="1523111368168" expanded="true" signature="3396:3685" ph="update recor... " />
-            <marker date="1523111368168" expanded="true" signature="3771:3865" ph="SELECT form " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="-112">
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1086,9 +999,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding>
+            <marker date="1523972416558" expanded="true" signature="4569:5858" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="4613:5847" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="4650:4802" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="4815:5169" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="4977:5154" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="5202:5504" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="5364:5488" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="5538:5831" ph="..." />
+            <marker date="1523972416558" expanded="true" signature="5703:5815" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,16 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,78 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
-          <folding>
-            <marker date="1523111368168" expanded="true" signature="898:1000" ph="select from record" />
-            <marker date="1523111368168" expanded="true" signature="1086:1142" ph="delete from " />
-            <marker date="1523111368168" expanded="true" signature="1226:1515" ph="insert into record... " />
-            <marker date="1523111368168" expanded="true" signature="2746:3300" ph="update recor... " />
-            <marker date="1523111368168" expanded="true" signature="3396:3685" ph="update recor... " />
-            <marker date="1523111368168" expanded="true" signature="3771:3865" ph="SELECT form " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <marker date="1523599650921" expanded="false" signature="1147:1158" ph=" { " />
-            <marker date="1523599650921" expanded="false" signature="1177:1183" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,17 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,75 +1062,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+        <state relative-caret-position="220">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar!/io/swagger/models/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar!/springfox/documentation/builders/ApiInfoBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="30" />
           <folding>
-            <element signature="e#802#816#0" expanded="true" />
-            <element signature="e#1117#1125#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/User_Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2495">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/User_RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#823#844#0" expanded="true" />
+            <element signature="e#1159#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/service/recordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="308">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/productMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/mapper/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="421">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/productMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/HomeContrllers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="87" column="52" lean-forward="false" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1523603096347" expanded="true" signature="1061:1211" ph="select , fro... " />
-            <marker date="1523603096347" expanded="true" signature="1297:1354" ph="delete from " />
-            <marker date="1523603096347" expanded="true" signature="1439:1677" ph="insert into product... " />
-            <marker date="1523603096347" expanded="true" signature="2761:3221" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3327:3572" ph="update produ... " />
-            <marker date="1523603096347" expanded="true" signature="3669:3857" ph="update produ... " />
-            <marker date="1523603096347" expanded="false" signature="3942:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4007:4035" ph="select from product" />
-            <marker date="1523603096347" expanded="true" signature="4125:4132" ph="UPDATE produ... " />
-            <marker date="1523603096347" expanded="true" signature="4125:4211" ph="UPDATE produ... " />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/service/productService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1182">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/masterlee/controllers/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="88" column="9" lean-forward="false" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1524064636840" expanded="true" signature="1526:1546" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/masterlee/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <marker date="1524065373222" expanded="true" signature="1072:1221" ph="select , fro... " />
+            <marker date="1524065373222" expanded="true" signature="1306:1362" ph="delete from " />
+            <marker date="1524065373222" expanded="true" signature="1447:1746" ph="insert into B_PRODUCT... " />
+            <marker date="1524065373222" expanded="true" signature="2997:3565" ph="update B_PRO... " />
+            <marker date="1524065373222" expanded="true" signature="3671:3970" ph="update B_PRO... " />
+            <marker date="1524065373222" expanded="true" signature="4067:4309" ph="update B_PRO... " />
+            <marker date="1524065373222" expanded="true" signature="4394:4538" ph="SELECT , fro... " />
           </folding>
         </state>
       </provider>

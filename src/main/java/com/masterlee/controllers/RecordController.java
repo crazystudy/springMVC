@@ -1,6 +1,6 @@
 package com.masterlee.controllers;
 
-import com.masterlee.entity.record;
+import com.masterlee.entity.ProductRecord;
 import com.masterlee.service.recordService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,14 +19,14 @@ public class RecordController {
     @ResponseBody
     public  responseResult selectAll(){
 
-       List<record> list = recordService.selectAll();
-        responseResult<List<record>> result = new responseResult<List<record>>(list,true);
+       List<ProductRecord> list = recordService.selectAll();
+        responseResult<List<ProductRecord>> result = new responseResult<List<ProductRecord>>(list,true);
        return  result;
     } @RequestMapping(value = "/add",produces = "application/json; charset=utf-8")
     @ResponseBody
-    public  responseResult add(record record){
+    public  responseResult add(ProductRecord record){
         boolean effect =  recordService.addRecord(record);
-        responseResult<record> result = new responseResult<record>(record,effect);
+        responseResult<ProductRecord> result = new responseResult<ProductRecord>(record,effect);
         return  result;
     }
 

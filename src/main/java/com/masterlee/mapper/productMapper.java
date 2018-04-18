@@ -1,24 +1,24 @@
 package com.masterlee.mapper;
 
-import com.masterlee.entity.product;
+import com.masterlee.entity.Product;
 
 import java.util.HashMap;
 import java.util.List;
 
-public interface productMapper {
-    int deleteByPrimaryKey(Integer id);
+public interface ProductMapper {
+    int deleteByPrimaryKey(String id);
 
-    int insert(product record);
+    int insert(Product record);
 
-    int insertSelective(product record);
+    int insertSelective(Product record);
 
-    product selectByPrimaryKey(Integer id);
+    Product selectByPrimaryKey(String id);
 
-    int updateByPrimaryKeySelective(product record);
+    int updateByPrimaryKeySelective(Product record);
 
-    int updateByPrimaryKeyWithBLOBs(product record);
+    int updateByPrimaryKeyWithBLOBs(Product record);
 
-    int updateByPrimaryKey(product record);
-    List<product> selectAll();
+    int updateByPrimaryKey(Product record);
+    List<Product> selectAll();
     int removeByPrimaryKey(HashMap map);
 }

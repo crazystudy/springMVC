@@ -1,42 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.masterlee.mapper.productMapper">
-  <resultMap id="BaseResultMap" type="com.masterlee.entity.product">
-    <id column="id" jdbcType="INTEGER" property="id" />
+<mapper namespace="com.masterlee.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.masterlee.entity.Product">
+    <id column="id" jdbcType="CHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="number" jdbcType="INTEGER" property="number" />
-    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
-    <result column="ifDetele" jdbcType="BOOLEAN" property="ifdetele" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="product_status" jdbcType="BIT" property="productStatus" />
   </resultMap>
-  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.masterlee.entity.product">
-    <result column ="description" jdbcType="LONGVARCHAR" property="description" />
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.masterlee.entity.Product">
+    <result column="description" jdbcType="LONGVARCHAR" property="description" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, name, number, createTime,ifDelete
+    id, name, number, create_time, product_status
   </sql>
   <sql id="Blob_Column_List">
     description
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
     select 
     <include refid="Base_Column_List" />
     ,
     <include refid="Blob_Column_List" />
-    from product
-    where id = #{id,jdbcType=INTEGER}
+    from B_PRODUCT
+    where id = #{id,jdbcType=CHAR}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from product
-    where id = #{id,jdbcType=INTEGER}
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from B_PRODUCT
+    where id = #{id,jdbcType=CHAR}
   </delete>
-  <insert id="insert" parameterType="com.masterlee.entity.product">
-    insert into product (id, name, number, 
-      createTime, description)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{number,jdbcType=INTEGER}, 
-      #{createtime,jdbcType=TIMESTAMP}, #{description,jdbcType=LONGVARCHAR})
+  <insert id="insert" parameterType="com.masterlee.entity.Product">
+    insert into B_PRODUCT (id, name, number, 
+      create_time, product_status, description
+      )
+    values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{number,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{productStatus,jdbcType=BIT}, #{description,jdbcType=LONGVARCHAR}
+      )
   </insert>
-  <insert id="insertSelective" parameterType="com.masterlee.entity.product">
-    insert into product
+  <insert id="insertSelective" parameterType="com.masterlee.entity.Product">
+    insert into B_PRODUCT
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
         id,
@@ -47,8 +49,11 @@
       <if test="number != null">
         number,
       </if>
-      <if test="createtime != null">
-        createTime,
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="productStatus != null">
+        product_status,
       </if>
       <if test="description != null">
         description,
@@ -56,7 +61,7 @@
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
-        #{id,jdbcType=INTEGER},
+        #{id,jdbcType=CHAR},
       </if>
       <if test="name != null">
         #{name,jdbcType=VARCHAR},
@@ -64,16 +69,19 @@
       <if test="number != null">
         #{number,jdbcType=INTEGER},
       </if>
-      <if test="createtime != null">
-        #{createtime,jdbcType=TIMESTAMP},
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="productStatus != null">
+        #{productStatus,jdbcType=BIT},
       </if>
       <if test="description != null">
         #{description,jdbcType=LONGVARCHAR},
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.masterlee.entity.product">
-    update product
+  <update id="updateByPrimaryKeySelective" parameterType="com.masterlee.entity.Product">
+    update B_PRODUCT
     <set>
       <if test="name != null">
         name = #{name,jdbcType=VARCHAR},
@@ -81,42 +89,41 @@
       <if test="number != null">
         number = #{number,jdbcType=INTEGER},
       </if>
-      <if test="createtime != null">
-        createTime = #{createtime,jdbcType=TIMESTAMP},
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="productStatus != null">
+        product_status = #{productStatus,jdbcType=BIT},
       </if>
       <if test="description != null">
         description = #{description,jdbcType=LONGVARCHAR},
       </if>
     </set>
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=CHAR}
   </update>
-  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.masterlee.entity.product">
-    update product
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.masterlee.entity.Product">
+    update B_PRODUCT
     set name = #{name,jdbcType=VARCHAR},
       number = #{number,jdbcType=INTEGER},
-      createTime = #{createtime,jdbcType=TIMESTAMP},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      product_status = #{productStatus,jdbcType=BIT},
       description = #{description,jdbcType=LONGVARCHAR}
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=CHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.masterlee.entity.product">
-    update product
+  <update id="updateByPrimaryKey" parameterType="com.masterlee.entity.Product">
+    update B_PRODUCT
     set name = #{name,jdbcType=VARCHAR},
       number = #{number,jdbcType=INTEGER},
-      createTime = #{createtime,jdbcType=TIMESTAMP}
-    where id = #{id,jdbcType=INTEGER}
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      product_status = #{productStatus,jdbcType=BIT}
+    where id = #{id,jdbcType=CHAR}
   </update>
-  <select id="selectAll" resultType="com.masterlee.entity.product">
-    select
+  <select id="selectAll" resultType="com.masterlee.entity.Product">
+    SELECT
     <include refid="Base_Column_List" />
-    from product
-    order by createTime desc
+    ,
+    <include refid="Blob_Column_List" />
+    from B_PRODUCT
+    order by  create_time DESC
   </select>
-<!--product假删除-->
-  <update id="removeByPrimaryKey" parameterType="map">
-    UPDATE product
-    <set>
-      ifDelete = #{ifdelete}
-    </set>
-    WHERE  id = #{id}
-  </update>
 </mapper>

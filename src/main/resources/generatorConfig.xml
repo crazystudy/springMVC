@@ -42,11 +42,30 @@
         </javaClientGenerator>
 
         <!-- 数据表进行生成操作 schema:相当于库名; tableName:表名; domainObjectName:对应的DO -->
-        <table schema="secreatrylee" tableName="product" domainObjectName="product"
+        <table schema="secreatrylee" tableName="B_PRODUCT_RECORD" domainObjectName="ProductRecord"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
-
+        <table schema="secreatrylee" tableName="B_PRODUCT" domainObjectName="Product"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="secreatrylee" tableName="R_USER_ROLE" domainObjectName="User_Role"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="secreatrylee" tableName="S_ROLE" domainObjectName="Role"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="secreatrylee" tableName="S_USER" domainObjectName="User"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
     </context>
 </generatorConfiguration>

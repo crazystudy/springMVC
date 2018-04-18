@@ -1,32 +1,26 @@
 package com.masterlee.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import java.util.Date;
 
-public class product {
-    private Integer id;
+public class Product {
+    private String id;
 
     private String name;
 
     private Integer number;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
-    private Date createtime;
+    private Date createTime;
+
+    private Boolean productStatus;
 
     private String description;
 
-    private Boolean ifdelete;
-
-    public void setIfdelete(Boolean ifdelete) {
-        this.ifdelete = ifdelete;
-    }
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId(String id) {
+        this.id = id == null ? null : id.trim();
     }
 
     public String getName() {
@@ -45,16 +39,20 @@ public class product {
         this.number = number;
     }
 
-    public Date getCreatetime() {
-        return createtime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
-    public Boolean getIfdelete() {
-        return ifdelete;
+    public Boolean getProductStatus() {
+        return productStatus;
+    }
+
+    public void setProductStatus(Boolean productStatus) {
+        this.productStatus = productStatus;
     }
 
     public String getDescription() {

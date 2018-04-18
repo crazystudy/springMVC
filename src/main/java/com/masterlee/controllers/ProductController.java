@@ -3,7 +3,7 @@ package com.masterlee.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.masterlee.entity.product;
+import com.masterlee.entity.Product;
 import com.masterlee.entity.responseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,12 +23,12 @@ public class ProductController {
     @ResponseBody
     public responseResult addProduct (){
 
-            responseResult<product> result;
-            product product = new product();
+            responseResult<Product> result;
+        Product product = new Product();
             int random = new Random().nextInt(100);
             product.setName("测试商品"+random);
             product.setNumber(10);
-            product.setCreatetime(new Date());
+            product.setCreateTime(new Date());
             //返回结果
             boolean effect =productService.addProduct(product);
 
@@ -46,13 +46,13 @@ public class ProductController {
     @RequestMapping(value = "/select",produces = "application/json; charset=utf-8")
     @ResponseBody
     public  responseResult selectAll(){
-        responseResult<List<product>> result;
+        responseResult<List<Product>> result;
 
         try {
-            List<product>  list = productService.selectProduct();
+            List<Product>  list = productService.selectProduct();
             ObjectMapper objectMapper = new ObjectMapper();
             String jsonstring =  objectMapper.writeValueAsString(list);
-            result= new responseResult<List<product>>(list,true);
+            result= new responseResult<List<Product>>(list,true);
             return result;
         }
         catch (JsonProcessingException EX){
@@ -63,22 +63,22 @@ public class ProductController {
     }
     @RequestMapping(value = "/update",produces = "application/json; charset=utf-8")
     @ResponseBody
-    public  responseResult update(product product) {
-        responseResult<product> result;
+    public  responseResult update(Product product) {
+        responseResult<Product> result;
         boolean effect= productService.updateProduct(product);
         if (!effect){
-            result = new responseResult<product>("401","保存失败",effect);
+            result = new responseResult<Product>("401","保存失败",effect);
         }
         //成功.return实体
         else {
-            result = new responseResult<product>(product,effect);
+            result = new responseResult<Product>(product,effect);
         }
         return result;
     }
 
     @RequestMapping(value = "/delete",produces = "application/json; charset=utf-8")
     @ResponseBody
-    public  responseResult delete(Integer productId,boolean status) {
+    public  responseResult delete(String productId,boolean status) {
         responseResult<String> result;
         HashMap map = new HashMap();
         map.put("id",36);

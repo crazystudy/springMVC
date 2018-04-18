@@ -1,7 +1,7 @@
 package com.masterlee.service;
 
-import com.masterlee.entity.record;
-import com.masterlee.mapper.recordMapper;
+import com.masterlee.entity.ProductRecord;
+import com.masterlee.mapper.ProductRecordMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,12 +10,12 @@ import java.util.List;
 @Service
 public class recordService {
     @Autowired
-    private recordMapper recordMapper;
-    public List<record> selectAll(){
-        return  recordMapper.selectAll();
+    private ProductRecordMapper productRecordMapper;
+    public List<ProductRecord> selectAll(){
+        return  productRecordMapper.selectAll();
     }
-    public  boolean addRecord(record record){
-        int i = recordMapper.insert(record);
+    public  boolean addRecord(ProductRecord record){
+        int i = productRecordMapper.insert(record);
         return  i==1? true:false;
     }
 }

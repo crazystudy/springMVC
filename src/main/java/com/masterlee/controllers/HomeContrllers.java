@@ -1,6 +1,5 @@
 package com.masterlee.controllers;
 
-import com.masterlee.entity.product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +16,12 @@ public class HomeContrllers {
     productService productService;
     @RequestMapping("/test")
     @ResponseBody
-    public String index(HttpServletRequest request, HttpServletResponse response){
+    public String index(HttpServletRequest request, HttpServletResponse response){/*
         product product = new product();
         product.setName("测试11");
         product.setNumber(1);
         product.setDescription("无");
-        productService.test(product);
+        productService.test(product);*/
         return "hao";
     }
 }
