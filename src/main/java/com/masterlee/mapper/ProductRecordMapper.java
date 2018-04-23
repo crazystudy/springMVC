@@ -1,9 +1,10 @@
 package com.masterlee.mapper;
 
 import com.masterlee.entity.ProductRecord;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public interface ProductRecordMapper {
     int deleteByPrimaryKey(String id);
 

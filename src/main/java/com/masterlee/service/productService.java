@@ -1,6 +1,5 @@
 package com.masterlee.service;
 import com.masterlee.entity.Product;
-import com.masterlee.entity.ProductRecord;
 import com.masterlee.mapper.ProductMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -39,7 +38,7 @@ public class productService {
         return  i==1? true:false;
     }
     public  boolean removeProduct(HashMap map){
-        int i = productMapper.removeByPrimaryKey(map);
+        int i = productMapper.updateStatus(map);
         return i>0? true:false;
     }
 }
